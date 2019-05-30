@@ -66,7 +66,7 @@ int main()
     getline(cin, nomFichier);
     if (nomFichier !="")
     {
-        ofstream myFile(nomFichier.c_str(), ios::app); // Open to append, ".niv" included.
+        ofstream myFile(nomFichier.c_str(), ios::app); // Open to append.
         if (!myFile)
         {
             cerr << "Erreur de fichier !";
